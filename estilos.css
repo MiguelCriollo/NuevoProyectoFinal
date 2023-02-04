@@ -1,0 +1,60 @@
+
+/*----------------INICIO NAV--------- */
+
+.menuNavegacionPrincipal{ 
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+}
+/*--------------Para mostrar logo------------*/
+.menuNavegacionPrincipal_contenedorLogo{
+    width: 10%;
+}
+
+.menuNavegacionPrincipal_logoProyecto{
+    width: 100%;
+    height: 100%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    
+}
+/*--------------------------------------*/
+/*--------------------Mostrar lista de navegacion------------------*/
+.menuNavegacionPrincipal_contenedorLinksNavegacion{
+    display: flex;
+    justify-content: center;
+    width:90%;
+
+}
+
+.menu_navegacion{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(0, 199, 248);
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 1px;
+}
+.menuNavegacionPrincipal_contenedorLinksNavegacion li{
+    background-color: aqua;
+    font-size: 200%;
+}
+
+
+.itemsMenuNavegacion{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+
+}
+
+/*--------------------------------------*/
+
+/*---------------FIN NAV------------------ */
+
