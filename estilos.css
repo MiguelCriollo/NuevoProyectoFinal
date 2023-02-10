@@ -59,6 +59,7 @@ body{
 .menuNavegacionPrincipal_contenedorLinksNavegacion li{
     background-color: aqua;
     font-size: 200%;
+    cursor: pointer;
 }
 
 
@@ -69,6 +70,9 @@ body{
     border-width: 1px;
     padding: 20px;
 
+}
+.itemsMenuNavegacion.distinto{
+    background-color:black;
 }
 
 /*--------------------------------------*/
