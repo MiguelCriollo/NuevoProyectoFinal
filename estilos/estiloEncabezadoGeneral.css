@@ -81,15 +81,9 @@ body{
 
 /*---------------INICIO MAIN------------------ */
 
-
-.nombres{
-    background-color: blue;
+#contenedorTest{
+    display: none;
 }
-.nombres:hover{
-    background-color: brown;
-}
-
-
 
 
 
