@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/estiloEncabezadoGeneral.css" media="(min-width:600px)">
     <link rel="stylesheet" href="estilosPaginaCrear.css" media="(min-width:600px)">
-    <script src="scriptPaginaCrear.css"></script>
     <title>Document</title>
 </head>
 
@@ -56,7 +55,6 @@
             
             
         </div>
-
         <form>
             <div class="imagen1_MenuCrear">
                 <img class="form_imagen1" src="../imagenes/imagenAprendizaje1.jpg" alt="logo1" >
@@ -88,17 +86,26 @@
                     <input type="text" id="ingresoApellidos" placeholder="Escribe tus apellidos aquí" >
                     <p>El nombre de su institucion</p>
                     <input type="text" id="ingresoApellidos" placeholder="Escribe tus apellidos aquí" >
+                    
                 </div> 
-
+                
+                <button id="botonValidarForm">Validar Datos</button>
+                <div id="contenedorErroresForm" style="display:block;">
+                        Aqui se muestra cuales valores han sido mal colocados
+                </div>
+                <button id="botonCrearAula">Crear aula</button>
+                
             </div>
             
             <div class="imagen2_MenuCrear">
                 <img class="form_imagen2" src="../imagenes/imageAprendizaje2.jpg" alt="logo2" >
             </div>
             
-
+            
         </form>
-
+        
+            
     </main>
 </body>
+<script src="/PaginaCrear/scriptBotonValidacion.js"></script>
 </html>
