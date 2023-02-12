@@ -12,7 +12,7 @@ main{
 
 
 .imagen1_MenuCrear{
-    width: 33%;
+    width: 33.3%;
     display: flex;
     justify-content: center;
     height: auto;
@@ -21,10 +21,11 @@ main{
 .form_imagen1{
     height: 100%;
     width: 100%;
+    border-radius: 50px;
 }
 
 .imagen2_MenuCrear{
-    width: 33%;
+    width: 33.3%;
     display: flex;
     justify-content: center;
     
@@ -32,16 +33,18 @@ main{
 .form_imagen2{
     height: 100%;
     width: 100%;
+    border-radius: 50px;
+
 }
 
 form{
     display: flex;
-
+    width: 100%;
     border-style: solid;
-    border-width: 1px;
+    background: linear-gradient(rgb(124, 124, 228), white);
 }
 .formularioCrear{
-    width: 33%;
+    width: 33.3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,3 +57,8 @@ form{
     align-items: center;
 }
 
+#container{
+    border-width: 5px;
+    width: 400px;
+    height: 400px;
+}
