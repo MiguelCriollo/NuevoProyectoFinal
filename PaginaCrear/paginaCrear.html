@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/estiloEncabezadoGeneral.css" media="(min-width:600px)">
+    <link rel="stylesheet" href="estilosPaginaCrear.css" media="(min-width:600px)">
     <script src="scriptPaginaCrear.css"></script>
     <title>Document</title>
 </head>
@@ -44,15 +45,56 @@
     </nav>
     <!-------------------------Fin Menu Navegacion---------------------------->
     <main>
-        <button id="botonCrear">
-            test
-        </button>>
-        <div id="contenedorTest">
-            <p>Hello World</p>
+        <div id="tituloMenuCrear">
+            <p>Bienvenido al menu crear</p>
         </div>
-    </main>
-    <section>
+        <div class="textoMenuCrear">
+            <p>
+                En esta seccion se puede crear el aula que usted desea, pero antes es necesario llenar la siguiente
+                informacion:
+            </p>
+            
+            
+        </div>
 
-    </section>
+        <form>
+            <div class="imagen1_MenuCrear">
+                <img class="form_imagen1" src="../imagenes/imagenAprendizaje1.jpg" alt="logo1" >
+            </div>
+            <div class="formularioCrear">
+                <div class="form_ingresoNombres">
+                    <p>Ingrese su cedula</p>
+                    <input type="text" id="ingresoCedula" placeholder="Escribe tus nombres aquí" >
+                </div>
+                <div class="form_ingresoNombres">
+                    <p>Ingrese sus nombres Completos</p>
+                    <input type="text" id="ingresoNombres" placeholder="Escribe tus nombres aquí" >
+                </div>
+                <div class="form_ingresoNombres">
+                    <p>Ingrese sus apellidos Completos</p>
+                    <input type="text" id="ingresoApellidos" placeholder="Escribe tus apellidos aquí" >
+                </div>
+                <div class="form_ingresoNombres">
+                    <p>Ingrese su edad</p>
+                    <input type="number" id="ingresoEdad" placeholder="Escribe tu edad aquí" >
+                </div>
+                <div class="form_ingresoNombres">
+                    <p>¿Es usted profesor?</p>
+                    <input type="checkbox" id="profesor">
+                </div>
+                <div class="form_ingresoNombres">
+                    <p>Las siguientes preguntas son opcionales</p>
+                    <p>El nombre de su institucion</p>
+                    <input type="text" id="ingresoApellidos" placeholder="Escribe tus apellidos aquí" >
+                    <p>El nombre de su institucion</p>
+                    <input type="text" id="ingresoApellidos" placeholder="Escribe tus apellidos aquí" >
+                </div> 
+            </div>
+            <div class="imagen2_MenuCrear">
+                <img class="form_imagen2" src="../imagenes/imageAprendizaje2.jpg" alt="logo2" >
+            </div>
+        </form>
+
+    </main>
 </body>
 </html>

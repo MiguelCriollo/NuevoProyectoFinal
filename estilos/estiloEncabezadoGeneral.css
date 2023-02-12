@@ -1,8 +1,14 @@
 /*---------------GENERAL CLASSES------------------ */
 html{
+    height: 100%;
     padding: 0;
     margin: 10px;
     background-color: rgb(199, 197, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../imagenes/fondo.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 main{
     border-style: solid;
