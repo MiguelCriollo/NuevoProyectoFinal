@@ -93,7 +93,9 @@
                 <div id="contenedorErroresForm" style="display:block;">
                         Aqui se muestra cuales valores han sido mal colocados
                 </div>
-                <button id="botonCrearAula">Crear aula</button>
+
+
+                <button id="botonAbrirMenuPreguntas">Seleccionar las Preguntas</button>
                 
             </div>
             
@@ -103,9 +105,35 @@
             
             
         </form>
+        <div id="seleccionPreguntas" style="display:none;">
+            Seleccione de la siguiente lista cuales preguntas desea
+            <ul>
+                <li>
+                    <p>Pregunta1</p>
+                </li>
+                <li>
+                    <p>Pregunta2</p>
+                </li>
+                <li>
+                    <p>Pregunta3</p>
+                </li>
+                <li>
+                    <p>Pregunta4</p>
+                </li>
+                <li>
+                    <p>Pregunta5</p>
+                </li>
+                <li>
+                    <p>Pregunta6</p>
+                </li>
+            </ul>
+            <button id="botonCerrarMenuPreguntas">!Crear aula!</button>
+        </div>
         
             
     </main>
 </body>
-<script src="/PaginaCrear/scriptBotonValidacion.js"></script>
+<script src="./scriptBotonSeleccionPreguntas.js"></script>
+<script src="./scriptBotonValidacion.js"></script>
+<script src="./scriptBotonCrearAula.js"></script>
 </html>

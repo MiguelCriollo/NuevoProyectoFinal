@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/estiloEncabezadoGeneral.css" media="(min-width:600px)">
-    <script src="scriptPagina.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./estilosUnirse.css">
+    <title>Unirse</title>
 </head>
 
 <body>
@@ -44,8 +44,67 @@
     </nav>
     <!-------------------------Fin Menu Navegacion---------------------------->
 
-    <section>
+    <main>
+        <div id="tituloPaginaUnirse">
+            <h>Unirse a una clase:</h>
+            <p>Para unirse a la clase proporcionada por tu profesor, ingresa el 
+                codigo:
+            </p>
+        </div>
+        <div id="contenedorIngresoCodigo">
+            <input type="number">
+            <button id="botonValidarCodigoClase">Validar Codigo</button>
+        </div>
+        <div id="preguntasClase" style="display: none;">
+            <ul>
+                <li>
+                    <h2>¿Cuál es la capital de Estados Unidos?</h2>
+                    <div class="conjuntoRespuestas">
+                        <input type="radio" name="capitalEEUU" value="Washington, D.C."> Washington, D.C.<br>
+                        <input type="radio" name="capitalEEUU" value="Nueva York"> Nueva York<br>
+                        <input type="radio" name="capitalEEUU" value="Los Ángeles"> Los Ángeles
+                    </div>
+                </li>
+                
+                <li>
+                    <h2>¿Cuál es el sistema solar en el que vivimos?</h2>
+                    <div class="conjuntoRespuestas">
+                        <input type="radio" name="sistemaSolar" value="Sistema Solar"> Sistema Solar<br>
+                        <input type="radio" name="sistemaSolar" value="Sirius"> Sirius<br>
+                        <input type="radio" name="sistemaSolar" value="Alpha Centauri"> Alpha Centauri
+                    </div>
+                </li>
+                
+                <li>
+                    <h2>¿Cuál es la capital de México?</h2>
+                    <div class="conjuntoRespuestas">
+                        <input type="radio" name="capitalMexico" value="Ciudad de México"> Ciudad de México<br>
+                        <input type="radio" name="capitalMexico" value="Monterrey"> Monterrey<br>
+                        <input type="radio" name="capitalMexico" value="Guadalajara"> Guadalajara
+                    </div>
+                </li>
+                
+                <li>
+                    <h2>¿Quién escribió "Don Quijote de la Mancha"?</h2>
+                    <div class="conjuntoRespuestas">
+                        <input type="radio" name="autorDonQuijote" value="Miguel de Cervantes"> Miguel de Cervantes<br>
+                        <input type="radio" name="autorDonQuijote" value="William Shakespeare"> William Shakespeare<br>
+                        <input type="radio" name="autorDonQuijote" value="Gabriel García Márquez"> Gabriel García Márquez
+                    </div>
+                </li>
+                
+                <li>
+                    <h2>¿Cuántos dedos tienen las manos de un ser humano normalmente?</h2>
+                    <div class="conjuntoRespuestas">
+                        <input type="radio" name="dedosManos" value="5"> 5<br>
+                        <input type="radio" name="dedosManos" value="10"> 10<br>
+                        <input type="radio" name="dedosManos" value="7"> 7
+                    </div>
+                </li>
+            </ul>
+        </div>
 
-    </section>
+    </main>
 </body>
+<script src="scriptBotonValidarCodigo.js"></script>
 </html>
