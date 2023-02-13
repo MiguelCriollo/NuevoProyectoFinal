@@ -63,7 +63,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 footer{
     margin-top: 30px;
@@ -74,15 +74,18 @@ footer{
     font-size: 50px;
 }
 .contenido-pie-de-pagina{
-    padding: 10px;
+    padding: 30px;
     width: 98%;
     height: 200px;
    min-width: 300px;
    margin: 20px;
-   background-color: black;
+   background-color: rgb(66, 10, 66);
    color: aliceblue;
-   display: flex
+   display: flex;
+   border-radius: 20px;
+   text-align: center;
 }
+
 .contenidosSB{
     width: 100%;
     display: flex;
