@@ -1,6 +1,6 @@
 
 main{
-    background-color: aqua;
+    background: linear-gradient(to right,rgb(238, 242, 239), rgb(15, 15, 15));
     height: auto;
 }
 
@@ -11,14 +11,14 @@ main{
 
 
 
-.imagen1_MenuCrear{
+#imagen1_MenuCrear{
     width: 33.3%;
     display: flex;
     justify-content: center;
     height: auto;
     
 }
-.form_imagen1{
+#form_imagen1{
     height: 100%;
     width: 100%;
     border-radius: 50px;
@@ -41,7 +41,7 @@ form{
     display: flex;
     width: 100%;
     border-style: solid;
-    background: linear-gradient(rgb(124, 124, 228), white);
+    background: linear-gradient(rgb(183, 86, 228), rgb(69, 193, 235));
 }
 .formularioCrear{
     width: 33.3%;

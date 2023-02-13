@@ -1,6 +1,7 @@
 main{
     background: linear-gradient(rgb(238, 242, 239), white);
     height: auto;
+    padding: 50px;
 }
 
 #tituloPaginaUnirse{
@@ -18,3 +19,6 @@ main{
     font-size: 1.5rem;
 }
 
+ul{
+    padding: 30px;
+}
