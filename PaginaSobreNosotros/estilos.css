@@ -99,7 +99,16 @@ footer{
 .contenidosSB .contactos{
     width: 100%;
     margin: 20px;
-    background-color: black;
-    color: aliceblue;
     padding: 10px;
+   
+}
+.contenidosSB .contactos .varias-escuelas .contenidos-varias-escuelas{
+    width: 50%;
+   
+}
+.contenidosSB .contactos .varias-escuelas .contenido-contactanos{
+width: 50%;
+display: flex;
+margin: 50px;
+background-color: aqua;
 }
