@@ -1,5 +1,5 @@
 let doc = document.getElementById("form_imagen1");
-let sacar= prompt("Ingrese link")
+let sacar= 'https://drive.google.com/file/d/1Lr4Vm_tVBCgyLhFlUbPo5HloktZBxxrn/view?usp=sharing';
 let contador=0;
 let url="";
 for(let i=0;i<sacar.length;i++){
